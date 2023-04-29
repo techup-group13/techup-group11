@@ -10,11 +10,10 @@
 }
 
 #foto1 {
-    width: 70%;
-      height: 300px;
+    width: 25%;
+    height: 300px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
 }
 
 ul {
@@ -47,6 +46,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     background-color: aquamarine;
+    margin-top: 200px;
 }
 
 caption {
@@ -78,13 +78,23 @@ th {
     color: white;
 }
 .Galeria{
-    color: #5ADBFF;
-    text-align: center;
+    color: black;
     padding: 8px;
 }
 #box{
     width: 150px;
     border: solid 2px black;
     padding: 20px 100px 20px 100px;
-    margin: 120px 100px 100p 120px;
+    margin: 20px 100px 100p 120px;
+}
+#pic_title{
+    color: blueviolet;
+    padding:5px ;
+    border: solid #5ADBFF 10px;
+    margin-right: 1325px;
+}
+#description{
+    color: black;
+    padding: 20px ;
+    width: 330px;
 }
