@@ -44,6 +44,7 @@ li a:hover {
 table {
     border-collapse: collapse;
     width: 100%;
+    background-color: aquamarine;
 }
 
 caption {
@@ -54,9 +55,15 @@ th, td {
     text-align: center;
     padding: 8px;
 }
+tr:nth-child(even){
+    background-color: blue;
+    }
+    tr:nth-child(odd){
+    background-color: green;
+    }
 
 th {
-    background-color: #094074;
+    background-color: pink;
     color: white;
 }
 
@@ -72,4 +79,10 @@ th {
     color: #5ADBFF;
     text-align: center;
     padding: 8px;
+}
+#box{
+    width: 150px;
+    border: solid 2px black;
+    padding: 20px 100px 20px 100px;
+    margin: 120px 100px 100p 120px;
 }
